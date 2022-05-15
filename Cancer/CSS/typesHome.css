@@ -1,0 +1,86 @@
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    background: linear-gradient(270deg, #abdbef, #f3cada, #fdd4c1, #daeee7, #789cce);
+    background-size: 900% 900%;
+
+    -webkit-animation: AnimationName 48s ease infinite;
+    -moz-animation: AnimationName 48s ease infinite;
+    animation: AnimationName 48s ease infinite;
+    width: 100%;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.types-title{
+    color: ghostwhite;
+    font-size: 4em;
+    font-style: italic;
+    text-align: center;
+    height: 100px;
+}
+.group{
+    display: flex;
+}
+
+.type{
+    width: 250px;
+    height: 450px;
+    background: white;
+    border: 7px solid #BBE7E6;
+    margin-left: 40px;
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+    margin-left: 3px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding: initial;
+}
+.type-text{
+    text-align: left;
+    font-size: larger;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+.description{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #4E4E4E;
+}
+
+.home-banner-button{
+    width: 20%;
+    border-radius: 45%;
+    height: 3vh;
+    margin-left: 40%;
+    margin-top: 100px;
+    background: #BBE7E6;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 1.5em;
+    align-self: auto;
+    position: absolute;
+}
